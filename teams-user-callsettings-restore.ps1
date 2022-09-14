@@ -1,4 +1,4 @@
-#connect-microsoftteams
+connect-microsoftteams
 $users = Import-Csv -Path $env:userprofile\teams-user-call-settings.csv
 
 foreach($user in $users){
