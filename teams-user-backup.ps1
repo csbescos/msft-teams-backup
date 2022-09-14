@@ -1,4 +1,4 @@
-#connect-microsoftteams
+connect-microsoftteams
 $users = get-csonlineuser -ResultSize 10000
 
 foreach($user in $users){
